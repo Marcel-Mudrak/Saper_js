@@ -1,0 +1,128 @@
+body{
+    background-color: #006385;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid{
+    /* width: 450px;
+    height: 450px; */
+    background-color: white;
+    margin: auto;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    border: 3px solid;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.pole {
+    height: 40px;
+    width: 40px;
+    margin: 0.5%;
+    background-color: rgb(172, 172, 172);
+    font-size: 2.5vw;
+    text-align: center;
+    -webkit-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,1);
+    -moz-box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,1);
+    box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,1);
+    cursor: pointer;
+    
+}
+
+.pole:hover{
+    background-color: rgb(214, 214, 214);
+}
+
+.mina{
+    background-color: rgb(172, 172, 172);
+    cursor: pointer;
+}
+
+.mina:hover{
+    background-color: red;
+}
+
+.bottom {
+    background-color: white;
+    margin: auto;
+    margin-top: 15px;
+    padding: 0% 0.5% 1% 0.5%;
+    padding-bottom: 0%;
+    width: 32vw;
+    text-align: center;
+    border: solid 3px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#b1 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #008CBA;
+}
+
+#b1:hover {
+    background-color: #00ade7;
+}
+
+#b2 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #4CAF50;
+}
+
+#b2:hover {
+    background-color: #5eda62;
+}
+
+h1 {
+    text-align: center;
+}
+
+.naglowek {
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+    padding-bottom: 0%;
+    width: 32vw;
+    text-align: center;
+    border: solid 3px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.stopka {
+    text-align: right;
+    margin-right: 0.5%;
+    margin-bottom: 0.5%;
+    color: grey;
+}
+
+.info {
+    margin-top: auto;
+}
+
+#gora {
+    display: flex;
+}
